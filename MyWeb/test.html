@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/stylesheet.css" rel="stylesheet">
+    <link href="/css/media.css" rel="stylesheet">
+
+    <title>Test_Seite</title>
+</head>
+
+<body>
+    <div id="fixed_head">
+        <!--Banner der Seite-->
+        <div id="banner" class="center" onmouseover="showNav()" onmouseout="hideNav()">
+            <h1>
+                Bannner
+            </h1>
+        </div>
+
+        <!--Die Navigation der Seite-->   
+        <nav id="nav" onmouseover="showNav()" onmouseout="hideNav()" >
+            <div class="center">
+                <h2>
+                    LINKS!!!
+                </h2>
+            </div>
+        </nav>      
+    </div>
+
+    <!--Seitenbeschreibung und Logo-->
+    <header>
+        <section>
+            <div>
+                <img class="center, BACKGROUND_HELP" src="" width="126" height="126">               
+            </div>
+            <div>
+                <h2>
+                    Hauptseite
+                </h2>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis, aut earum dignissimos sint consequatur sit, facere cumque quod quae ducimus consequuntur ullam omnis ipsum animi dolor officia veniam officiis.
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--Sectionen, Paragraphen, Tabellen, Bilder, Videos, ... etc.-->
+    <main>
+        <section>
+            <div class="b50">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis, aut earum dignissimos sint consequatur sit, facere cumque quod quae ducimus consequuntur ullam omnis ipsum animi dolor officia veniam officiis.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!--Autor, Hinweise zum Urheberrecht, ein Link zum Impressum-->
+    </footer>
+
+
+<!--JavaScript-->
+
+<!--Navigations Leiste Aus- und Einblenden-->
+<script>
+    function showNav() {
+        document.getElementById("nav").style.height = "70px";
+    }
+
+    function hideNav() {
+        document.getElementById("nav").style.height = "0";
+    }
+</script>
+
+</body>
+</html>
