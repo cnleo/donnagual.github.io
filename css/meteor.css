@@ -1,0 +1,16 @@
+.anim {
+    position: absolute;
+    border: 2px solid black;
+    top: -750px;
+}
+.anim:hover {
+    background-color: red;
+}
+
+#checkbox {
+    display: block;
+}
+
+#checkbox:checked ~ #animation-target {
+    animation: meteor 5s linear infinite;
+}
