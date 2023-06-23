@@ -8,82 +8,98 @@
     position: fixed;
     top: -700px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow12l {
     position: fixed;
     top: -600px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow13l {
     position: fixed;
     top: -500px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow14l {
     position: fixed;
     top: -400px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow15l {
     position: fixed;
     top: -300px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow16l {
     position: fixed;
     top: -200px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow17l {
     position: fixed;
     top: -100px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow18l {
     position: fixed;
     top: 0px;
     left: 9em;
+    visibility: hidden;
 }
 
 .arrow01l {
     position: fixed;
     top: 100px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow02l {
     position: fixed;
     top: 200px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow03l {
     position: fixed;
     top: 300px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow04l {
     position: fixed;
     top: 400px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow05l {
     position: fixed;
     top: 500px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow06l {
     position: fixed;
     top: 600px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow07l {
     position: fixed;
     top: 700px;
     left: 9em;
+    visibility: hidden;
 }
 .arrow08l {
     position: fixed;
     top: 800px;
     left: 9em;
+    visibility: hidden;
 }
 /*################################################################*/
 /*Ausrichtung rechts*/
@@ -91,87 +107,103 @@
     position: fixed;
     top: -700px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow12r {
     position: fixed;
     top: -600px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow13r {
     position: fixed;
     top: -500px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow14r {
     position: fixed;
     top: -400px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow15r {
     position: fixed;
     top: -300px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow16r {
     position: fixed;
     top: -200px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow17r {
     position: fixed;
     top: -100px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow18r {
     position: fixed;
     top: 0px;
     right: 13.5em;
+    visibility: hidden;
 }
 
 .arrow01r {
     position: fixed;
     top: 100px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow02r {
     position: fixed;
     top: 200px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow03r {
     position: fixed;
     top: 300px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow04r {
     position: fixed;
     top: 400px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow05r {
     position: fixed;
     top: 500px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow06r {
     position: fixed;
     top: 600px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow07r {
     position: fixed;
     top: 700px;
     right: 13.5em;
+    visibility: hidden;
 }
 .arrow08r {
     position: fixed;
     top: 800px;
     right: 13.5em;
+    visibility: hidden;
 }
 
 /*################################################################*/
 #checkbox2:checked ~ #animarrow01 {
     animation: arrow 5s linear infinite;
-    
+    visibility: visible;    
 }
 
