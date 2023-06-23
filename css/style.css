@@ -50,11 +50,13 @@ main {
     padding: 0 20px;
     max-width: 7em;
     background-color: var(--farbe3);
+    z-index: 10;
 }
 
 .aside2 {
     background-color: var(--farbe3);
     max-width: 14em;
+    z-index: 10;
 }
 
 footer {
