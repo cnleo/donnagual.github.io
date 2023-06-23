@@ -23,6 +23,9 @@
     #animarrow01 {
         visibility: hidden;
     }
+    #checkbox2 {
+        visibility: hidden;
+    }
 }
 
 @media screen and (min-width: 781px) and (max-width: 1343px) {
