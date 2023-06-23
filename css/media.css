@@ -21,7 +21,7 @@
         visibility: hidden;
     }
     #animarrow01 {
-        visibility: hidden;
+        display: none;
     }
     #checkbox2 {
         visibility: hidden;
