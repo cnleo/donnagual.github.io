@@ -5,9 +5,9 @@
 
 body {
     margin: 0;
-    
     background-color: #d2d2d2;
     color: #372c24;
+    opacity: 0;
 }
 
 header {
@@ -83,10 +83,11 @@ main {
     padding:0;
 }
 
-/* aside {
-    width: 100%;
-    height: 100px;
-} */
+aside {
+    position: absolute;
+    left: 0;
+    bottom: 3em;
+}
 
 footer {
     background: rgb(193,134,75);
@@ -106,4 +107,14 @@ footer {
     justify-content: space-between;
     width: 100%;
     padding: 0 2rem 0 2rem;
+}
+
+#sozialDiv {
+    display: none;
+    position: absolute;
+}
+
+.sozialBtn {
+    border: none;
+    background: none;
 }

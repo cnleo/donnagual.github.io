@@ -1,3 +1,14 @@
+function fadeIn() {
+    let element = document.getElementById("fadeBody");
+        let opacity = 0;
+        let fadeIn = setInterval(() => {
+            if (opacity >= 1) {
+                clearInterval(fadeIn);
+            }
+            element.style.opacity = opacity;
+            opacity += 0.015;
+        }, 10);
+}
 
 
 function showNav() {
@@ -22,4 +33,14 @@ function hidedropProjekt() {
 }
 
 
-
+let x = true;
+function weg() {
+        if (x == false) {
+            sozialDiv.style.display = "none";
+            x = true;
+        }
+        else {
+            sozialDiv.style.display = "block";
+             x = false;
+        }
+}

@@ -9,12 +9,12 @@
     <script src="/javascript/funktionen.js"></script>
 </head>
 
-<body>
+<body id="fadeBody" onload="fadeIn()">
     <header onmouseover="showNav()" onmouseout="hideNav()">
         <!--Banner der Seite-->
         <div id="banner">            
             <h1>
-                Don Nagual
+                <a href="index.html"><h1>Don Nagual</h1></a>
             </h1>
         </div>
         <!--Die Navigation der Seite-->
@@ -46,21 +46,23 @@
     <main id="bgImage">
         
     </main>
-    
-    <!--Mal gucken was ich hierdraus mache-->
-    <!--
-        <aside>
-        <h2>
-            Aside
-        </h2>
+ 
+    <aside>
+        <div id="sozialDiv">
+            Media
+        </div>
+        <button class="sozialBtn" onclick="weg()">
+            <img src="/image/media.png" alt="^^">
+        </button>
     </aside>
-    -->
-    <!--Autor, Hinweise zum Urheberrecht, ein Link zum Impressum-->
+
     <footer>
         <div class="fdiv">
             <div> &copy; copyright</div>
             <div> Version 0.0.1</div>
         </div>
     </footer>
+    
+    <script src="/javascript/funktionen.js"></script>
 </body>
 </html>
