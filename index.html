@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <link href="/css/stylesheet.css" rel="stylesheet">
+    <link href="/css/media.css" rel="stylesheet">
+    <script src="/javascript/funktionen.js"></script>
+</head>
+
+<body>
+    <header onmouseover="showNav()" onmouseout="hideNav()">
+        <!--Banner der Seite-->
+        <div id="banner">            
+            <h1>
+                Don Nagual
+            </h1>
+        </div>
+        <!--Die Navigation der Seite-->
+        <div class="bar">
+            <nav id="navBar" onmouseover="showNav()" onmouseout="hideNav()">
+                <a href="#">Über mich</a>
+                <div>
+                    <a href="#" onmouseover="showdropGalerie()" onmouseout="hidedropGalerie()">Galerie</a>
+                    <div id="dropGalerie" onmouseover="showdropGalerie()" onmouseout="hidedropGalerie()">
+                        <a href="#">Oumuamua</a>
+                        <a href="#">Java Graphik Flow</a>
+                        <a href="#">Web Games</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" onmouseover="showdropProjekt()" onmouseout="hidedropProjekt()">Projekte</a>
+                    <div id="dropProjekt" onmouseover="showdropProjekt()" onmouseout="hidedropProjekt()">
+                        <a href="#">Oumuamua</a>
+                        <a href="#">Java Graphik Flow</a>
+                        <a href="#">Web Games</a>
+                    </div>
+                </div>
+                <a href="#">Kontakt</a>
+            </nav>
+        </div> 
+    </header>
+     
+    <!--Inhalt-->
+    <main id="bgImage">
+        
+    </main>
+    
+    <!--Mal gucken was ich hierdraus mache-->
+    <!--
+        <aside>
+        <h2>
+            Aside
+        </h2>
+    </aside>
+    -->
+    <!--Autor, Hinweise zum Urheberrecht, ein Link zum Impressum-->
+    <footer>
+        <div class="fdiv">
+            <div> &copy; copyright</div>
+            <div> Version 0.0.1</div>
+        </div>
+    </footer>
+</body>
+</html>
