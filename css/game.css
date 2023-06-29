@@ -1,0 +1,22 @@
+#banner {
+    height: 9vh !important;
+}
+
+header div nav a {
+    color: #d2d2d2 !important;
+}
+#bgGame {
+    position: fixed;
+    height:100%;
+    width: 100%;
+}
+
+#gameCanves {
+    border: 15px solid rgb(193,134,75);
+    height: 75%;
+    width: 70%;
+}
+
+footer {
+    z-index: 0;
+}
