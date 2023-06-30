@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    
+    <link href="/css/media.css" rel="stylesheet">
+    <link href="/css/game.css" rel="stylesheet">
+    <script src="/javascript/webgames.js"></script>
+    
+</head>
+
+<body id="fadeBody" onload="fadeIn()">
+    <header>
+        <div id="banner">            
+            <h1>
+                <a href="../index.html"><h1>Web Games</h1></a>
+            </h1>
+        </div>
+        <div class="bar">
+            <nav id="navBar"></nav>
+        </div> 
+    </header>
+    
+    <main id="bgImage" id="bgGame">
+        <div id="cookies">
+            <h2>Cookies</h2>
+            <p>
+                Diese Seite verwendet Cookies um ausschließlich den High Score des Spiels zu speichern.<br>
+                Mit Starten des Spiels akzeptieren Sie die lokale Speicherung des High Score in ihrem Browser.<br>
+                Falls sie damit nicht einverstanden sind aber dennoch das Spiel spielen möchten, gehen sie in Ihrem Browser zu den Einstellungen und blockieren die Cookies.<br>
+                Dadurch wird jedoch der High Score nicht gespeichert und beim jeden neuen Spiel auf Null gesetzt.
+            </p>
+            <div id="games">
+                <button id="asteroidsGame" onclick="asteroidsGame()"><h2>Asteroids</h2></button>
+                <button><h2>Space Invaders</h2></button>
+            </div>
+        </div>
+        <div id="spielablauf">
+            <h2>Spielablauf</h2>
+            <p>
+                Das Ziel des Spiels ist es, so viele Asteroidenbrocken wie möglich zu zerstören und dein Schiff so lange wie möglich im Weltraum zu halten.<br>
+                Verwenden Sie W, A, S oder die Pfeiltasten, um Ihr Schiff durch den Weltraum zu manövrieren.<br>
+                Drücken Sie die Leertaste (Feuer), um Photonentorpedos auf die Asteroidenfelsen zu schießen.<br>
+                Wenn ein Asteroid getroffen wird, kann er einfach in kleinere Felsbrocken zerfallen oder vollständig pulverisiert werden.<br>
+                <hr>
+                COMING SOON
+                <br><br>
+                In weiteren Spielvarianten werden Sie mit zusätzlichen Weltraumgefahren wie Satelliten und UFOs konfrontiert.<br>
+                Beide können Torpedos auf Sie abfeuern.
+            </p>
+            <button id="openGame" onclick="openAsteroidsGame()"><h2>Start</h2></button>
+        </div>
+        <a id="btnBack" href="asteroid.html"><h2>Back</h2></a>
+        <button id="btnFullScreen" onclick="fullScreen()"><img src="../image/fullscreen_logo.png" alt="fullscreen"></button>
+        <button id="btnWindowScreen" onclick="windowScreen()"><img src="../image/window_logo.png" alt="windowscreen"></button>
+        <canvas id="gameCanves" width="1280" height="720"></canvas>
+    </main>
+    
+        
+    <aside>
+        <button class="sozialBtn" onclick="mediaFunction()">
+            <img src="/image/media1.png" alt="^">
+        </button>
+        <div id="mediaDiv">
+            <img class="sozialLogo" src="/image/discord_logo.png">
+            <img class="sozialLogo" src="/image/youtube_logo.png">
+            <img class="sozialLogo" src="/image/instagram_logo.png">
+            <img class="sozialLogo" src="/image/linkedin_logo.png">
+        </div>
+    </aside>
+
+    <footer>
+        <div class="footdiv">
+            <div> &copy; COPYRIGHT</div>
+            <div> VERSION 0.0.1</div>
+        </div>
+    </footer>
+    <script src="../javascript/asteroid.js"></script>
+</body>
+</html>

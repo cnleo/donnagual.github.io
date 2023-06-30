@@ -1,0 +1,9 @@
+SPIELABLAUF 
+Das Ziel des Spiels ist es, so viele Asteroidenbrocken wie möglich zu zerstören und dein Schiff so lange wie möglich im Weltraum zu halten.
+Verwenden Sie W, A, S oder die Pfeiltasten, um Ihr Schiff durch den Weltraum zu manövrieren.
+Drücken Sie die Leertaste (Feuer), um Photonentorpedos auf die Asteroidenfelsen zu schießen.
+Wenn ein Asteroid getroffen wird, kann er einfach in kleinere Felsbrocken zerfallen oder vollständig pulverisiert werden. 
+(COMING SOON)
+In weiteren Spielvarianten werden Sie mit zusätzlichen Weltraumgefahren wie Satelliten und UFOs konfrontiert.
+Beide können Torpedos auf Sie abfeuern.
+

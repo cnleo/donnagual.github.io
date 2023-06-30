@@ -1,0 +1,4 @@
+Diese Seite verwendet Cookies um ausschließlich den High Score des Spiels zu speichern.
+Mit Starten des Spiels akzeptieren Sie die lokale Speicherung des High Score auf ihren Browser.
+Falls sie damit nicht einverstanden sind aber dennoch das Spiel spielen möchten, gehen sie in Ihrem Browser zu den Einstellungen und blockieren die Cookies.
+Dadurch wird jedoch der High Score nicht gespeichert und beim jeden neuen Spiel auf Null gesetzt.
