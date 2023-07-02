@@ -1,0 +1,13 @@
+
+https://betterprogramming.pub/working-with-javascript-animations-using-requestanimationframe-f07e0658908e
+https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+
+https://developer.mozilla.org/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance
+https://developer.mozilla.org/en-US/docs/Web/Performance/Animation_performance_and_frame_rate
+https://hacks.mozilla.org/2011/08/animating-with-javascript-from-setinterval-to-requestanimationframe/
+
+https://stackoverflow.com/questions/19764018/controlling-fps-with-requestanimationframe
+http://jsfiddle.net/louisremi/GXuPq/3/
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelAnimationFrame

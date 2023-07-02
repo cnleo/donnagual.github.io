@@ -48,8 +48,18 @@ function openAsteroidsGame() {
     document.addEventListener("keyup", keyUp);
 
     // set up the game loop
+    let fpsInterval, now, then, startTime, elapsed, frameCount=0;
     //setInterval(update, 1000 / FPS);
-    window.requestAnimationFrame(update);
+    //window.requestAnimationFrame(update);
+    startAnimating();
+
+    function startAnimating() {
+        fpsInterval = 1000 / FPS;
+        then = window.performance.now();
+        startTime = then;
+        console.log(startTime);
+        update();
+    }
 
     function createAsteroidBelt() {
         roids = [];
@@ -278,8 +288,24 @@ function openAsteroidsGame() {
         ship.canShoot = false;
     }
 
+    // current fps view element
+    const fps_view = document.createElement('div');
+    fps_view.style.position='absolute';
+    fps_view.style.zIndex='999999999';
+    fps_view.style.color='white';
+    document.body.appendChild(fps_view);
+    
+    function update(newtime) {
 
-    function update() {
+        // ... animation and of course gives us the precise time "newtime"
+        requestAnimationFrame(update);
+
+        now = newtime;
+        elapsed = now - then;
+
+        if (elapsed > fpsInterval) {
+            then = now - (elapsed % fpsInterval);
+
         let blinkOn = ship.blinkNum % 2 == 0;
         let exploding = ship.explodeTime > 0;
 
@@ -621,7 +647,11 @@ function openAsteroidsGame() {
         // ctx.fillStyle = "red";
         // ctx.fillRect(ship.x -1, ship.y -1, 2, 2);
 
-        window.requestAnimationFrame(update);
-
+        // view current fps
+        let sinceStart = now - startTime;
+        let currentFps = Math.round(1000 / (sinceStart / ++frameCount) * 100) / 100;
+        fps_view.textContent = `Elapsed time= ${Math.round(sinceStart / 1000 * 100) / 100} secs @ ${currentFps} fps.`;
+        
+    }
     }
 }
