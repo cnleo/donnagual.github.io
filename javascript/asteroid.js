@@ -48,7 +48,8 @@ function openAsteroidsGame() {
     document.addEventListener("keyup", keyUp);
 
     // set up the game loop
-    setInterval(update, 1000 / FPS);
+    //setInterval(update, 1000 / FPS);
+    window.requestAnimationFrame(update);
 
     function createAsteroidBelt() {
         roids = [];
@@ -619,6 +620,8 @@ function openAsteroidsGame() {
         // center dot
         // ctx.fillStyle = "red";
         // ctx.fillRect(ship.x -1, ship.y -1, 2, 2);
+
+        window.requestAnimationFrame(update);
 
     }
 }
